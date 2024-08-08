@@ -1,0 +1,113 @@
+.container {
+    padding: 5px;
+    position: relative;
+    top: 10%;
+    left: 2%;
+}
+ 
+.container-nav {
+    display: flex;
+    gap: 10px;
+    margin: 15px auto;
+}
+ 
+.nav-separator {
+    position: relative;
+    background-color: #E6E6E6;
+    margin: 15px auto;
+}
+ 
+.nav-indicator {
+    width: 6rem;
+    height: 4px;
+    background-color: #F9BE00;
+    position: relative;
+}
+ 
+.non-active-tab {
+    color: #8B8B8B;
+    font-weight: 500;
+}
+ 
+.active-tab {
+    font-weight: 600;
+}
+ 
+.company-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+ 
+.input-container {
+    border-radius: 4px;
+    width: 341px;
+    border: 1px solid #E7E7E7;
+}
+ 
+.company-input {
+    width: 341px;
+    height: 56px;
+    border: none;
+    padding: 0 0 0 5px;
+    background-color: #E7E7E7;
+    font-size: 16px;
+    font-weight: 500;
+}
+ 
+.address-input {
+    width: 341px;
+    height: 56px;
+    border: none;
+    padding: 0 0 0 5px;
+    background-color: #E7E7E7;
+    font-size: 16px;
+    font-weight: 500;
+ 
+}
+ 
+/* input::placeholder {
+    color: black;
+    padding-left: 20px;
+ 
+} */
+ 
+ 
+ 
+.address-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ 
+.contact-adress-container {
+    border-radius: 4px;
+    width: 459px;
+    border: 1px solid #E7E7E7;
+}
+ 
+.contact-adress-input {
+    font-size: 16px;
+    font-weight: 500;
+    width: 459px;
+    height: 56px;
+    border: none;
+    padding: 0 0 0 5px;
+    background-color: #E7E7E7;
+ 
+}
+ 
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 64px;
+ 
+}
+ 
+.btn {
+    height: 47px;
+    width: 97px
+}
